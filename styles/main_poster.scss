@@ -1,0 +1,155 @@
+.main-poster {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+  .poster-img {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .poster-content {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-bottom: 50px;
+
+    .wrapper {
+      max-width: 400px;
+
+      .simple-link {
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        position: relative;
+        top: -5px;
+      }
+
+      .headline {
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: 600;
+      }
+    }
+
+    .left {
+      max-width: 397px;
+    }
+
+    .right {
+      max-width: 466px;
+    }
+  }
+}
+.mobile-menu {
+  display: none;
+  padding: 9px;
+  width: 100%;
+  background-color: #ede6d7;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+
+  .button {
+    padding: 0px;
+    border-radius: 0;
+    width: 50%;
+    background-color: #ede6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #030303;
+
+    .button-description {
+      color: #050505;
+      font-size: 14px;
+      letter-spacing: 2px;
+
+      font-family: Work Sans;
+      text-transform: uppercase;
+    }
+
+    .shop-icon {
+      height: 21.5px;
+      margin-right: 15px;
+      width: 22.2px;
+      font-size: 16px;
+      color: #fff;
+      margin: 10px;
+      margin-left: 17px;
+    }
+
+    .menu-icon {
+      height: 22.5px;
+      width: 24px;
+      margin: 10px;
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+  }
+
+  .shop-button {
+    position: relative;
+    left: -10px;
+  }
+
+  .menu-button {
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1424px) {
+  .main-poster {
+    .poster-content {
+      .left,
+      .right {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-poster {
+    .poster-content {
+      padding-left: 14px;
+      padding-top: 111px;
+
+      align-items: flex-start;
+      .wrapper {
+        .headline {
+          font-size: 30px;
+          line-height: 35px;
+          max-width: 90%;
+        }
+        .sub-headline {
+          display: none;
+        }
+        .simple-link {
+          position: relative;
+          top: -1px;
+        }
+      }
+    }
+  }
+  .mobile-menu {
+    display: flex;
+    max-height: 55px;
+
+    .shop-button {
+      .shop-icon {
+        fill: #030303;
+      }
+    }
+  }
+}

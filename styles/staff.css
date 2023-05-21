@@ -1,0 +1,189 @@
+.staff {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 170px;
+}
+.staff .wrapper {
+  margin-top: 109px;
+  width: 37%;
+  min-width: 37%;
+}
+.staff .wrapper .headline {
+  color: black;
+  margin-bottom: 25px;
+}
+.staff .wrapper .sub-headline {
+  color: black;
+  max-width: 81%;
+  line-height: 31px;
+}
+.staff .content {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 28px;
+  justify-content: space-between;
+}
+.staff .content .banner {
+  background-color: #F7F4ED;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+  margin-top: 59px;
+  padding: 60px;
+  padding-top: 76px;
+}
+.staff .content .banner .svg-box {
+  height: 87px;
+  margin-bottom: 17px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.staff .content .banner .svg-box .apost {
+  width: 77.75px;
+  height: 58px;
+}
+.staff .content .banner .person-img {
+  border-radius: 50%;
+  margin-left: -1px;
+  margin-bottom: 17px;
+}
+.staff .content .banner .info {
+  padding: 0;
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  height: 171px;
+  overflow-y: scroll;
+}
+.staff .content .banner .name {
+  font-family: Merriweather;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.staff .content .banner .contacts {
+  font-size: 15px;
+  font-family: Work Sans;
+  line-height: 20px;
+  font-weight: 400;
+  color: #766D5F;
+  text-align: center;
+  max-width: 80%;
+  margin-top: 2px;
+}
+.staff .content .person {
+  width: 47%;
+  margin-top: 59px;
+  padding-bottom: 49px;
+}
+.staff .content .info-banner {
+  margin-left: 45px;
+  width: 47%;
+}
+.staff .content .info-banner .banner {
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 70px;
+}
+.staff .content .info-banner .arrows {
+  margin-top: 43px;
+}
+.staff .content .info-banner .arrows .to-left {
+  margin-right: 26px;
+  margin-left: 1px;
+}
+.staff .content .info-banner .arrows .arr {
+  height: 16.7px;
+  width: 16.7px;
+}
+
+@media screen and (max-width: 1440px) {
+  .staff {
+    padding-top: 80px;
+  }
+  .staff .wrapper {
+    min-width: 50%;
+  }
+  .staff .content {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .staff .content .person {
+    max-width: 100%;
+    width: 100%;
+  }
+  .staff .content .info-banner {
+    max-width: 100%;
+    width: 100%;
+  }
+  .staff .content .info-banner .banner {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .staff {
+    flex-direction: column;
+    padding-top: 61px;
+  }
+  .staff .wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .staff .wrapper .headline {
+    margin-bottom: 17px;
+  }
+  .staff .wrapper .sub-headline {
+    font-size: 18px;
+  }
+  .staff .content {
+    margin-left: 0;
+    align-items: flex-start;
+    margin-top: 9px;
+  }
+  .staff .content .info-banner {
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 88%;
+  }
+  .staff .content .info-banner .arrows {
+    margin-top: 29px;
+  }
+  .staff .content .person {
+    padding: 50px;
+    max-width: 88%;
+    margin-top: 0;
+    padding-top: 62px;
+  }
+  .staff .content .person .person-img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 24px;
+  }
+  .staff .content .person .info {
+    padding: 0;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    height: 118px;
+  }
+  .staff .content .person .name {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    position: relative;
+    right: 2px;
+  }
+  .staff .content .person .contacts {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    max-width: 95%;
+  }
+}/*# sourceMappingURL=staff.css.map */

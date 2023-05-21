@@ -1,0 +1,93 @@
+.menu-section {
+  margin-top: 0;
+  padding-bottom: 99px;
+  position: relative;
+  margin-top: -248px;
+  padding-top: 248px;
+  z-index: 10;
+  overflow: hidden;
+}
+.menu-section .bg-seeds {
+  position: absolute;
+  bottom: -15px;
+}
+.menu-section .bg-seeds svg {
+  height: 267px;
+  width: 281px;
+}
+.menu-section .add-button {
+  display: flex;
+  margin-top: 10px;
+}
+.menu-section .menu-cataloge .honest {
+  margin-top: 120px;
+}
+.menu-section .menu-cataloge .item {
+  max-width: 369px;
+  min-width: 369px;
+  margin-right: 112px;
+}
+.menu-section .menu-cataloge .item .text-box {
+  margin-top: -54px;
+  padding-top: 27px;
+  margin-right: 50px;
+}
+.menu-section .menu-cataloge .item .text-box .description {
+  width: 115%;
+  margin-right: -45px;
+}
+.menu-section .menu-cataloge .item .text-box .rate {
+  display: none;
+}
+.menu-section .menu-cataloge .item:nth-child(3) .img-box,
+.menu-section .menu-cataloge .item:nth-child(2) .img-box {
+  padding-bottom: 133%;
+}
+.menu-section .wrapper {
+  margin-bottom: 25px;
+  max-width: 70%;
+}
+.menu-section .wrapper .sub-headline {
+  width: 90%;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-section {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
+  .menu-section .bg-seeds {
+    right: 10px;
+  }
+  .menu-section .bg-seeds svg {
+    height: 200px;
+    width: 170px;
+  }
+  .menu-section .wrapper {
+    width: 100%;
+    max-width: unset;
+  }
+  .menu-section .wrapper .headline {
+    max-width: 85%;
+    margin-bottom: 19px;
+  }
+  .menu-section .wrapper .sub-headline {
+    line-height: 30px;
+    height: 4.5em;
+    max-height: unset;
+    font-size: 18px;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .menu-section .menu-cataloge .honest {
+    margin-top: 0;
+  }
+  .menu-section .menu-cataloge .item {
+    padding-bottom: 0;
+  }
+  .menu-section .menu-cataloge .item .text-box {
+    margin-top: -41px;
+    padding-top: 21px;
+    margin-right: 55px;
+  }
+}/*# sourceMappingURL=main_services.css.map */

@@ -1,0 +1,184 @@
+.menu-section {
+  background-color: #f7f4ed;
+  margin-top: 0px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 169px;
+  padding-bottom: 170px;
+}
+.menu-section .add-button {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.menu-section .add-button .add {
+  height: 20px;
+  width: 20px;
+}
+.menu-section .simple-link {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 185px;
+}
+.menu-section .wrapper {
+  margin-top: 170px;
+  margin-right: 0;
+  max-width: 65%;
+}
+.menu-section .wrapper .headline {
+  color: black;
+}
+.menu-section .wrapper .sub-headline {
+  color: black;
+  margin-top: 17px;
+  line-height: 31px;
+}
+.menu-section .wrapper .simple-link {
+  display: inline;
+}
+.menu-section .menu-cataloge::-webkit-scrollbar {
+  display: none;
+}
+.menu-section .menu-cataloge {
+  width: 100%;
+  margin: 0;
+  margin-top: 19px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-top: 18px;
+}
+.menu-section .menu-cataloge .item {
+  margin: 0;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 18px;
+  min-width: 410px;
+  margin-right: 50px;
+}
+.menu-section .menu-cataloge .item .img-box {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  max-width: 410px;
+  margin: 0;
+  overflow: hidden;
+}
+.menu-section .menu-cataloge .item .img-box .item-img {
+  position: absolute;
+}
+.menu-section .menu-cataloge .item .text-box {
+  background-color: #f7f4ed;
+  margin-right: 40px;
+  position: relative;
+  margin-top: -39px;
+  border-top-right-radius: 10px;
+  padding-top: 39px;
+}
+.menu-section .menu-cataloge .item .text-box .pre-headline {
+  color: #c50e00;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: Work Sans;
+  font-weight: 400;
+  padding-top: 37px;
+}
+.menu-section .menu-cataloge .item .text-box .headline {
+  font-size: 25px;
+  font-family: Work Sans;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 6px;
+}
+.menu-section .menu-cataloge .item .text-box .description {
+  font-family: Work Sans;
+  font-size: 18px;
+  color: #766d5f;
+  margin-top: 7px;
+  line-height: 28px;
+  width: 96%;
+}
+.menu-section .menu-cataloge .item .text-box .rate {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+.menu-section .menu-cataloge .item .text-box .rate .star-box {
+  margin-left: 9px;
+}
+.menu-section .menu-cataloge .item .text-box .rate .pre-headline {
+  word-spacing: 4px;
+  padding-top: 0;
+}
+.menu-section .menu-cataloge .item:nth-child(1) {
+  margin-left: 185px;
+}
+.menu-section .menu-cataloge .honest {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+  .menu-section .wrapper {
+    margin-top: 80px;
+    max-width: 90%;
+  }
+  .menu-section .wrapper .sub-headline {
+    line-height: 26px;
+    margin-right: -1px;
+    margin-top: 11px;
+    max-height: 3em;
+  }
+  .menu-section .wrapper .headline {
+    margin-bottom: 7px;
+  }
+  .menu-section .menu-cataloge .item {
+    min-width: 370px;
+  }
+  .menu-section .menu-cataloge .item .text-box {
+    margin-top: -47px;
+    padding-top: 22px;
+    margin-right: 57px;
+  }
+  .menu-section .menu-cataloge .item .text-box .headline {
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-top: 4px;
+  }
+  .menu-section .menu-cataloge .item .text-box .description {
+    font-size: 17px;
+    width: 92%;
+    line-height: 25px;
+    margin-bottom: -6px;
+    margin-top: 4px;
+  }
+  .menu-section .menu-cataloge .item .text-box .rate .star-box {
+    position: relative;
+    bottom: 2px;
+  }
+  .menu-section .menu-cataloge .item .text-box .rate .star-box .star {
+    height: 8.61px;
+    width: 8.63px;
+  }
+  .menu-section .menu-cataloge .item:nth-child(1) {
+    margin-left: 15px;
+  }
+  .menu-section .menu-cataloge .honest {
+    margin-top: 0;
+  }
+  .menu-section .dots-box {
+    margin-top: -24px;
+    margin-left: 9px;
+  }
+  .menu-section .simple-link {
+    margin-left: 15px;
+  }
+}/*# sourceMappingURL=menu.css.map */

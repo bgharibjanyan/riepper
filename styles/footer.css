@@ -1,0 +1,366 @@
+.footer {
+  background-color: #3b352b;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 121px;
+  padding-bottom: 50px;
+  position: relative;
+  fill: #EAE0D0;
+  overflow: hidden;
+}
+.footer .down {
+  width: 9px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  display: none;
+}
+.footer .bg-seeds {
+  position: absolute;
+  z-index: 100;
+  bottom: -25px;
+  right: -92px;
+  fill: #F7F4ED;
+}
+.footer .footer-content {
+  margin: 0 -20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-content .simple-link {
+  color: #fff;
+  border-bottom: #fff 2px solid;
+  font-size: 14px;
+}
+.footer .footer-content .item {
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+.footer .footer-content .item .header {
+  color: #fff;
+  font-size: 16px;
+  font-family: Merriweather;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 19px;
+  border-bottom: 0;
+  justify-content: flex-start;
+}
+.footer .footer-content .item .content {
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Work Sans;
+  margin-bottom: 17px;
+}
+.footer .footer-content .item .phone-icon {
+  height: 14.5px;
+  width: 14.5px;
+}
+.footer .footer-content .item .mail-icon {
+  height: 11px;
+  width: 14.5px;
+}
+.footer .footer-content .mail {
+  width: 416px;
+}
+.footer .footer-content .mail .wrapper {
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0;
+  width: 416px;
+  position: relative;
+  top: 1px;
+}
+.footer .footer-content .mail .wrapper .header {
+  margin-bottom: 16px;
+}
+.footer .footer-content .mail .wrapper .content {
+  margin-bottom: 16px;
+}
+.footer .footer-content .mail .controls {
+  display: flex;
+  justify-content: space-between;
+  width: 416px;
+  margin-top: 12px;
+}
+.footer .footer-content .mail .controls .check .form-control {
+  font-size: 15px;
+  color: #fff;
+  font-family: Work Sans;
+}
+.footer .footer-content .mail .controls .check .form-control input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: #fff 1px solid;
+  margin: 0;
+  color: currentColor;
+  width: 12px;
+  height: 12px;
+  border-radius: 0.15em;
+}
+.footer .footer-content .mail .controls .submit {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 16px;
+  margin-top: -3px;
+  padding-bottom: 5px;
+}
+.footer .footer-content .mail .controls .submit .arrow {
+  width: 17.3px;
+  height: 10.1px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+.footer .footer-content .mail .controls .submit:hover .arrow {
+  margin-left: 10px;
+  margin-right: -5px;
+}
+.footer .footer-content .mail .mail {
+  z-index: 5;
+}
+.footer .footer-content .mail .mail .mail-input {
+  background-color: #3b352b;
+  border: none;
+  border-radius: 5px;
+  height: 49px;
+  width: 416px;
+  margin-top: 6px;
+  border: 1px solid #fff;
+}
+.footer .footer-content .mail .mail .mail-input::-moz-placeholder {
+  color: #707070;
+  font-size: 15px;
+  position: relative;
+  line-height: 20px;
+  top: 2px;
+  font-family: Work Sans;
+  padding-left: 10px;
+}
+.footer .footer-content .mail .mail .mail-input::placeholder {
+  color: #707070;
+  font-size: 15px;
+  position: relative;
+  line-height: 20px;
+  top: 2px;
+  font-family: Work Sans;
+  padding-left: 10px;
+}
+
+.footer-underline .top {
+  background-color: #3b352b;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+  padding-bottom: 25px;
+}
+.footer-underline .top .footer-navbar {
+  display: none;
+  margin-left: -1px;
+  margin-top: 2px;
+}
+.footer-underline .top .footer-navbar .nav:nth-child(1) {
+  margin: 0;
+  margin-right: 10px;
+}
+.footer-underline .top .footer-navbar .nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0 19px;
+}
+.footer-underline .top .footer-navbar .nav .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-family: Work Sans;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-underline .top .back-button {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.footer-underline .top .back-button .left {
+  width: 10.58px;
+  height: 10.58px;
+  margin-right: 7px;
+}
+.footer-underline .top .back-button .button-description {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Work Sans;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.footer-underline .top .socialmedia {
+  margin-right: 7px;
+  margin-top: -1px;
+  align-items: flex-start;
+  display: flex;
+}
+.footer-underline .top .socialmedia .faceboock-btn .faceboock {
+  height: 21.6px;
+  width: 11.6px;
+  position: relative;
+  left: 2px;
+  top: 2px;
+}
+.footer-underline .top .socialmedia .inst-btn .inst {
+  height: 70px;
+  width: 70px;
+  margin: -35px;
+}
+.footer-underline .top .socialmedia .in-btn .in {
+  height: 18.5px;
+  width: 18.5px;
+}
+.footer-underline .top .socialmedia .twitter-btn .twitter {
+  height: 13.4px;
+  width: 16.5px;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+.footer-underline .top .socialmedia .footer-button {
+  height: 41px;
+  width: 41px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0px 7px;
+}
+.footer-underline .bottom {
+  display: flex;
+  margin-left: -1px;
+  padding-top: 29px;
+  padding-bottom: 80px;
+}
+.footer-underline .bottom .c {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+.footer-underline .bottom .text {
+  font-size: 15px;
+  color: #766d5f;
+  line-height: 18px;
+  font-family: Work Sans;
+  margin-top: -2px;
+  word-spacing: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer .footer-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer-underline {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .footer-underline .top {
+    padding-top: 16px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 51px;
+  }
+  .footer-underline .top .back-button .left {
+    order: 2;
+    transform: rotate(180deg);
+    margin-left: 5px;
+  }
+  .footer-underline .top .back-button .button-description {
+    order: 1;
+  }
+  .footer-underline .top .socialmedia {
+    margin-top: 20px;
+  }
+  .footer-underline .top .socialmedia .footer-button {
+    margin: 0px 6px;
+  }
+  .footer-underline .bottom {
+    padding-top: 17px;
+    padding-bottom: 50px;
+    margin-left: 2px;
+  }
+  .footer-underline .bottom .c {
+    height: 8px;
+    width: 8px;
+  }
+  .footer-underline .bottom .text {
+    word-spacing: 5px;
+    max-width: 80%;
+    line-height: 20px;
+  }
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 35px;
+  }
+  .footer .footer-content {
+    flex-direction: column;
+  }
+  .footer .footer-content .down {
+    display: inline;
+  }
+  .footer .footer-content .mail {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .footer .footer-content .mail .down {
+    left: 6px;
+  }
+  .footer .footer-content .mail .mail,
+  .footer .footer-content .mail .controls {
+    display: none;
+  }
+  .footer .footer-content .mail .wrapper {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .footer .footer-content .mail .wrapper .content {
+    display: none;
+  }
+  .footer .footer-content .times .content {
+    display: none;
+  }
+  .footer .footer-content .item {
+    margin-bottom: 2px;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .footer .footer-content .item .header {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  .footer .footer-content .item .content {
+    margin-bottom: 12px;
+  }
+  .footer .footer-content .contacts {
+    margin-bottom: 49px;
+  }
+  .footer .footer-content .contacts .content {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .footer .footer-content .contacts .simple-link {
+    font-size: 14px;
+    line-height: 16px;
+    border: 0;
+  }
+}/*# sourceMappingURL=footer.css.map */

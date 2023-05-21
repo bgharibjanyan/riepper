@@ -1,0 +1,118 @@
+.menu-section {
+  margin-top: 0;
+  padding-bottom: 99px;
+  position: relative;
+  margin-top: -248px;
+  padding-top: 248px;
+  z-index: 10;
+  overflow: hidden;
+
+  .bg-seeds {
+    position: absolute;
+    bottom: -15px;
+
+    svg {
+      height: 267px;
+      width: 281px;
+    }
+  }
+
+  .add-button {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .menu-cataloge {
+    .honest {
+      margin-top: 120px;
+    }
+
+    .item {
+      max-width: 369px;
+      min-width: 369px;
+      margin-right: 112px;
+
+      .text-box {
+        margin-top: -54px;
+        padding-top: 27px;
+        margin-right: 50px;
+
+        .description {
+          width: 115%;
+          margin-right: -45px;
+        }
+
+        .rate {
+          display: none;
+        }
+      }
+    }
+
+    .item:nth-child(3),
+    .item:nth-child(2) {
+      .img-box {
+        padding-bottom: 133%;
+      }
+    }
+  }
+
+  .wrapper {
+    margin-bottom: 25px;
+    max-width: 70%;
+
+    .sub-headline {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-section {
+    margin-top: -80px;
+    padding-top: 80px;
+
+    .bg-seeds {
+      right: 10px;
+
+      svg {
+        height: 200px;
+        width: 170px;
+      }
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: unset;
+
+      .headline {
+        max-width: 85%;
+        margin-bottom: 19px;
+      }
+
+      .sub-headline {
+        line-height: 30px;
+        height: 4.5em;
+        max-height: unset;
+        font-size: 18px;
+        overflow: hidden;
+        margin-bottom: 0;
+      }
+    }
+
+    .menu-cataloge {
+      .honest {
+        margin-top: 0;
+      }
+
+      .item {
+        padding-bottom: 0;
+
+        .text-box {
+          margin-top: -41px;
+          padding-top: 21px;
+          margin-right: 55px;
+        }
+      }
+    }
+  }
+}

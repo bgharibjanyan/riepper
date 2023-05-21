@@ -1,0 +1,157 @@
+.poster {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.poster .poster-img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.poster .poster-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding-bottom: 55px;
+}
+.poster .poster-content .wrapper {
+  width: 60%;
+  margin-bottom: 10px;
+  padding-bottom: 230px;
+}
+.poster .poster-content .nav-list {
+  list-style: none;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 45.5%;
+  min-width: 500px;
+}
+.poster .poster-content .nav-list .nav-item {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.poster .poster-content .nav-list .nav-item .marker {
+  width: 5px;
+  display: none;
+  position: absolute;
+  transition: 0.5s;
+  height: 20px;
+  left: 0px;
+  background-color: #fff;
+}
+.poster .poster-content .nav-list .nav-item .link-text {
+  color: #707070;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.poster .poster-content .nav-item:hover .marker {
+  display: flex;
+}
+.poster .poster-content .nav-item:hover .link-text {
+  color: #fff;
+}
+
+.mobile-menu {
+  display: none;
+  padding: 9px;
+  width: 100%;
+  background-color: #EDE6D7;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+.mobile-menu .button {
+  padding: 0px;
+  border-radius: 0;
+  width: 50%;
+  background-color: #EDE6D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #030303;
+}
+.mobile-menu .button .button-description {
+  color: #050505;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: Work Sans;
+  text-transform: uppercase;
+}
+.mobile-menu .button .shop-icon {
+  height: 21.5px;
+  margin-right: 15px;
+  width: 22.2px;
+  font-size: 16px;
+  color: #fff;
+  margin: 10px;
+  margin-left: 17px;
+}
+.mobile-menu .button .menu-icon {
+  height: 22.5px;
+  width: 24px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.mobile-menu .shop-button {
+  position: relative;
+  left: -10px;
+}
+.mobile-menu .menu-button {
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-menu {
+    display: flex;
+    max-height: 55px;
+  }
+  .mobile-menu .shop-button .shop-icon {
+    fill: #030303;
+  }
+  .poster .poster-content .wrapper {
+    max-width: 80%;
+    width: auto;
+  }
+  .poster .header {
+    justify-content: center;
+  }
+  .poster .header .menu-button {
+    display: none;
+  }
+  .poster .header .header-right {
+    display: none;
+  }
+  .poster .header .logo-button {
+    padding-top: 28px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 11px;
+  }
+  .poster .header .logo-button .logo-icon {
+    height: 18.8px;
+    width: 124.9px;
+  }
+  .poster .poster-content {
+    margin-bottom: 23px;
+  }
+  .poster .poster-content .nav-list {
+    display: none;
+  }
+  .poster .poster-content .wrapper .sub-headline {
+    display: none;
+  }
+}/*# sourceMappingURL=poster.css.map */

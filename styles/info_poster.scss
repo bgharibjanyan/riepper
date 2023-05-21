@@ -1,0 +1,323 @@
+.info-poster {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .poster-img {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .poster-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 55px;
+        margin-top: 93px;
+
+        .wrapper {
+            width: 60%;
+            margin-bottom: 10px;
+            padding-bottom: 0px;
+
+            .sub-headline {
+                text-align: center;
+            }
+
+            .headline {
+                text-align: center;
+            }
+        }
+
+        .red-button {
+            position: relative;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+}
+
+.cataloge {
+    margin-top: 122px;
+    display: flex;
+
+    .simple-link {
+        display: none;
+    }
+
+    .wrapper {
+        margin-top: 192px;
+        margin-right: 0;
+        width: 50%;
+
+
+        .headline {
+            color: black;
+            max-width: 80%;
+        }
+
+        .sub-headline {
+            color: black;
+            margin-top: 17px;
+            max-width: 63%;
+            line-height: 31px;
+        }
+
+        .simple-link {
+            display: inline;
+        }
+    }
+
+    .content-box {
+        width: 50%;
+        margin: 0;
+        margin-top: 49px;
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            width: 100%;
+            margin: 0;
+            height: max-content;
+            padding-bottom: 102px;
+
+            .img-box {
+                width: 100%;
+                height: 0;
+                padding-bottom: 75%;
+                position: relative;
+
+                .item-img {
+                    position: absolute;
+                }
+            }
+
+            .text-box {
+                background-color: #fff;
+                margin-right: 50px;
+                position: relative;
+                margin-top: -57px;
+                border-top-right-radius: 7px;
+
+                .pre-headline {
+                    color: #C50E00;
+                    font-size: 15px;
+                    line-height: 25px;
+                    font-family: Work Sans;
+                    font-weight: 400;
+                    padding-top: 37px;
+                }
+
+                .headline {
+                    font-size: 25px;
+                    font-family: Work Sans;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    position: relative;
+                    margin-top: 6px;
+                }
+
+                .description {
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    color: #766D5F;
+                    margin-top: 7px;
+                    line-height: 28px;
+                    width: 87%;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    display: flex;
+    background-color: #F1EBDE;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 185px;
+    padding: 75px;
+    margin-top: 65px;
+    padding: 56px 75px;
+    padding-left: 58px;
+
+    .banner-img {
+        margin-right: 48px;
+    }
+
+    .wrapper {
+
+
+        .headline {
+            font-size: 25px;
+            line-height: 29px;
+            color: black;
+        }
+
+        .description {
+            font-family: Work Sans;
+            font-size: 18px;
+            color: #766D5F;
+            margin-top: 7px;
+            line-height: 28px;
+        }
+
+
+    }
+
+    .simple-link {
+
+
+        min-width: 155px;
+        margin-right: -9px;
+
+        margin-top: 69px;
+        margin-left: 98px;
+    }
+}
+
+
+@media screen and (max-width: 1240px) {
+    .cataloge {
+        flex-direction: column;
+        margin-top: 0px;
+
+        .content-box {
+            width: 100%
+        }
+
+        .wrapper {
+            width: 100%;
+
+        }
+    }
+
+    .banner {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .info-poster {
+        .poster-img {
+            height: 94vh;
+        }
+
+
+        .poster-content {
+            margin-top: 75px;
+
+
+            .wrapper {
+                max-width: 80%;
+                width: auto;
+                top: -3px;
+
+            }
+        }
+
+        .poster-content {
+            margin-bottom: 23px;
+
+
+
+            .wrapper {
+                .sub-headline {
+                    display: none;
+                }
+            }
+
+            .red-button {
+                display: flex;
+                top: -7px;
+                padding: 17.5px 30px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .cataloge {
+
+        .simple-link {
+            display: flex;
+            width: max-content;
+
+        }
+
+        .wrapper {
+            margin-top: 27px;
+            margin-bottom: 0;
+
+            .sub-headline {
+                font-size: 17px;
+                margin-top: -9px;
+                max-width: 85%;
+                line-height: 25px;
+                margin-bottom: 0;
+
+            }
+
+            .simple-link {
+                display: none;
+            }
+        }
+
+        .dots-box {
+            display: flex;
+            margin-bottom: 30px;
+
+            .dot:nth-child(1) {
+                background-color: #C50E00;
+            }
+        }
+
+        .content-box::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content-box {
+            flex-direction: row;
+            overflow-x: scroll;
+            margin-top: 35px;
+
+            .item {
+                min-width: 100%;
+                padding-bottom: 0;
+                margin-right: 50px;
+
+                .text-box {
+                    margin-right: 27px;
+                    margin-top: -32px;
+
+                    .pre-headline {
+                        padding-top: 15px;
+                    }
+
+                    .headline {
+                        font-size: 21px;
+                        line-height: 26px;
+                    }
+
+                    .description {
+                        margin-top: 11px;
+                        font-size: 17px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

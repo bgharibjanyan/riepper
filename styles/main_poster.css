@@ -1,0 +1,129 @@
+.main-poster {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.main-poster .poster-img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-poster .poster-content {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-bottom: 50px;
+}
+.main-poster .poster-content .wrapper {
+  max-width: 400px;
+}
+.main-poster .poster-content .wrapper .simple-link {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  top: -5px;
+}
+.main-poster .poster-content .wrapper .headline {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 600;
+}
+.main-poster .poster-content .left {
+  max-width: 397px;
+}
+.main-poster .poster-content .right {
+  max-width: 466px;
+}
+
+.mobile-menu {
+  display: none;
+  padding: 9px;
+  width: 100%;
+  background-color: #ede6d7;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+.mobile-menu .button {
+  padding: 0px;
+  border-radius: 0;
+  width: 50%;
+  background-color: #ede6d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #030303;
+}
+.mobile-menu .button .button-description {
+  color: #050505;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: Work Sans;
+  text-transform: uppercase;
+}
+.mobile-menu .button .shop-icon {
+  height: 21.5px;
+  margin-right: 15px;
+  width: 22.2px;
+  font-size: 16px;
+  color: #fff;
+  margin: 10px;
+  margin-left: 17px;
+}
+.mobile-menu .button .menu-icon {
+  height: 22.5px;
+  width: 24px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.mobile-menu .shop-button {
+  position: relative;
+  left: -10px;
+}
+.mobile-menu .menu-button {
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1424px) {
+  .main-poster .poster-content .left,
+  .main-poster .poster-content .right {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-poster .poster-content {
+    padding-left: 14px;
+    padding-top: 111px;
+    align-items: flex-start;
+  }
+  .main-poster .poster-content .wrapper .headline {
+    font-size: 30px;
+    line-height: 35px;
+    max-width: 90%;
+  }
+  .main-poster .poster-content .wrapper .sub-headline {
+    display: none;
+  }
+  .main-poster .poster-content .wrapper .simple-link {
+    position: relative;
+    top: -1px;
+  }
+  .mobile-menu {
+    display: flex;
+    max-height: 55px;
+  }
+  .mobile-menu .shop-button .shop-icon {
+    fill: #030303;
+  }
+}/*# sourceMappingURL=main_poster.css.map */

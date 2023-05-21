@@ -1,0 +1,166 @@
+.header {
+  display: flex;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #C1C1C1;
+  position: relative;
+}
+.header .menu-button {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  display: flex;
+  padding: 28px;
+  margin-left: 19px;
+  margin-right: 181px;
+}
+.header .menu-button .menu-icon {
+  width: 22px;
+  height: 16.4px;
+  margin-right: 10px;
+}
+.header .menu-button .menu-text {
+  font-size: 14px;
+  color: #fff;
+  font-family: Work Sans;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header .logo-button {
+  background-color: #fff;
+  position: relative;
+  height: -moz-max-content;
+  height: max-content;
+  margin-bottom: -23px;
+  padding-top: 41px;
+  background-color: #fff;
+  padding-left: 23px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header .logo-button .logo-icon {
+  height: 31.3px;
+  width: 207.6px;
+}
+.header .header-right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+.header .header-right .lang-button {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px;
+}
+.header .header-right .lang-button .text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+.header .header-right .lang-button .down-icon {
+  width: 6.6px;
+  height: 3.8px;
+}
+.header .header-right .shop-button {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px;
+  border-left: 1px solid #C1C1C1;
+}
+.header .header-right .shop-button .text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+.header .header-right .shop-button .shop-icon {
+  width: 22.2px;
+  height: 21.44px;
+}
+
+.mobile-menu {
+  display: none;
+  padding: 9px;
+  width: 100%;
+  background-color: #EDE6D7;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+.mobile-menu .button {
+  padding: 0px;
+  border-radius: 0;
+  width: 50%;
+  background-color: #EDE6D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #030303;
+}
+.mobile-menu .button .button-description {
+  color: #050505;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: Work Sans;
+  text-transform: uppercase;
+}
+.mobile-menu .button .shop-icon {
+  height: 21.5px;
+  margin-right: 15px;
+  width: 22.2px;
+  font-size: 16px;
+  color: #fff;
+  margin: 10px;
+  margin-left: 17px;
+}
+.mobile-menu .button .menu-icon {
+  height: 22.5px;
+  width: 24px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.mobile-menu .shop-button {
+  position: relative;
+  left: -10px;
+}
+.mobile-menu .menu-button {
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-menu {
+    display: flex;
+    max-height: 55px;
+  }
+  .mobile-menu .shop-button .shop-icon {
+    fill: #030303;
+  }
+  .header {
+    justify-content: center;
+  }
+  .header .menu-button {
+    display: none;
+  }
+  .header .header-right {
+    display: none;
+  }
+  .header .logo-button {
+    padding-top: 28px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 11px;
+  }
+  .header .logo-button .logo-icon {
+    height: 18.8px;
+    width: 124.9px;
+  }
+}/*# sourceMappingURL=header.css.map */

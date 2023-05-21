@@ -1,0 +1,207 @@
+.header {
+    display: flex;
+
+    height: min-content;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #C1C1C1;
+    position: relative;
+
+
+    .menu-button {
+        position: relative;
+        background-color: #ffffff00;
+        border: 0;
+        display: flex;
+        padding: 28px;
+        margin-left: 19px;
+        margin-right: 181px;
+
+        .menu-icon {
+            width: 22px;
+            height: 16.4px;
+            margin-right: 10px;
+        }
+
+        .menu-text {
+            font-size: 14px;
+            color: #fff;
+            font-family: Work Sans;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+
+    .logo-button {
+        background-color: #fff;
+        position: relative;
+        height: max-content;
+        margin-bottom: -23px;
+        padding-top: 41px;
+        background-color: #fff;
+        padding-left: 23px;
+        padding-right: 20px;
+        padding-bottom: 19px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        .logo-icon {
+            height: 31.3px;
+            width: 207.6px;
+        }
+    }
+
+    .header-right {
+        display: flex;
+        height: 100%;
+        align-items: center;
+
+        position: relative;
+
+        .lang-button {
+            display: flex;
+            align-items: center;
+            padding: 25px 30px;
+
+
+            .text {
+                color: #fff;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 2px;
+            }
+
+            .down-icon {
+                width: 6.6px;
+                height: 3.8px;
+            }
+        }
+
+        .shop-button {
+            display: flex;
+            align-items: center;
+            padding: 25px 30px;
+            border-left: 1px solid #C1C1C1;
+
+
+            .text {
+                color: #fff;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 2px;
+                margin-left: 10px;
+            }
+
+            .shop-icon {
+                width: 22.2px;
+                height: 21.44px;
+            }
+        }
+    }
+}
+
+.mobile-menu {
+    display: none;
+    padding: 9px;
+    width: 100%;
+    background-color: #EDE6D7;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+
+
+
+    .button {
+        padding: 0px;
+        border-radius: 0;
+        width: 50%;
+        background-color: #EDE6D7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #030303;
+
+        .button-description {
+            color: #050505;
+            font-size: 14px;
+            letter-spacing: 2px;
+
+            font-family: Work Sans;
+            text-transform: uppercase;
+        }
+
+
+
+
+        .shop-icon {
+            height: 21.5px;
+            margin-right: 15px;
+            width: 22.2px;
+            font-size: 16px;
+            color: #fff;
+            margin: 10px;
+            margin-left: 17px;
+        }
+
+        .menu-icon {
+            height: 22.5px;
+            width: 24px;
+            margin: 10px;
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+
+
+
+
+    }
+
+    .shop-button {
+        position: relative;
+        left: -10px;
+    }
+
+    .menu-button {
+        border-right: 1px solid #fff;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-menu {
+        display: flex;
+        max-height: 55px;
+
+        .shop-button {
+            .shop-icon {
+                fill: #030303;
+            }
+        }
+
+    }
+
+    .header {
+        justify-content: center;
+
+        .menu-button {
+            display: none;
+        }
+
+        .header-right {
+            display: none;
+        }
+
+        .logo-button {
+            padding-top: 28px;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-bottom: 11px;
+
+            .logo-icon {
+                height: 18.8px;
+                width: 124.9px;
+            }
+        }
+    }
+}

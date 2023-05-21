@@ -1,0 +1,23 @@
+.footer-underline .top {
+
+    .footer-navbar {
+        display: flex
+    }
+
+    .back-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer-underline .top {
+
+        .footer-navbar {
+            display: none
+        }
+
+        .back-button {
+            display: flex;
+        }
+    }
+}
